@@ -65,7 +65,8 @@ python demo/demo.py --config-file projects/YOSO/configs/YOSO-R50.yaml --video-in
 
 ## Acknowledgements
 
-[Mask2Former](https://github.com/facebookresearch/Mask2Former), [K-Net](https://github.com/ZwwWayne/K-Net)
+- [Mask2Former](https://github.com/facebookresearch/Mask2Former)
+- [K-Net](https://github.com/ZwwWayne/K-Net)
 
 ## Citing YOSO
 
