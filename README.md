@@ -8,24 +8,24 @@ This is the project page for paper:
 On COCO validation set:
 | Backbone | Scale | PQ | FPS| GPU | Model
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|R50|800,1333|48.4|23.6|V100|todo|
-|R50|512,800|46.4|45.6|V100|todo|
+|R50|800,1333|48.4|23.6|V100| [model](https://github.com/hujiecpp/YOSO/releases/download/v0.1/yoso_res50_coco.pth) |
+|R50|512,800|46.4|45.6|V100|[model](https://github.com/hujiecpp/YOSO/releases/download/v0.1/yoso_res50_coco.pth)|
 
 On Cityscapes validation set:
 | Backbone | Scale | PQ | FPS| GPU | Model
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|R50|1024,2048|59.7|11.1|V100|todo|
-|R50|512,1024|52.5|22.6|V100|todo|
+|R50|1024,2048|59.7|11.1|V100|[model](https://github.com/hujiecpp/YOSO/releases/download/v0.1/yoso_res50_cityscapes.pth)|
+|R50|512,1024|52.5|22.6|V100|[model](https://github.com/hujiecpp/YOSO/releases/download/v0.1/yoso_res50_cityscapes.pth)|
 
 On ADE20k validation set:
 | Backbone | Scale | PQ | FPS| GPU | Model
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|R50|640,2560|38.0|35.4|V100|todo|
+|R50|640,2560|38.0|35.4|V100|[model](https://github.com/hujiecpp/YOSO/releases/download/v0.1/yoso_res50_ade20k.pth)|
 
 On Mapillary Vistas validation set:
 | Backbone | Scale | PQ | FPS| GPU | Model
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|R50|2048,2048|34.1|7.1|A100|todo|
+|R50|2048,2048|34.1|7.1|A100|[model](https://github.com/hujiecpp/YOSO/releases/download/v0.1/yoso_res50_mapillary.pth)|
 
 ## Getting Started
 ### Installation
