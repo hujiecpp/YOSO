@@ -57,7 +57,7 @@ python projects/YOSO/train_net.py --num-gpus 4 --config-file projects/YOSO/confi
 python projects/YOSO/train_net.py --num-gpus 4 --config-file projects/YOSO/configs/YOSO-R50.yaml --eval-only MODEL.WEIGHTS ./model_zoo/yoso_res50_coco.pth
 ```
 
-### Inference on custom demo.
+### Inference on Custom Image or Video
 
 - Run YOSO demo (e.g., on video with R50 backbone).
 ```bash
