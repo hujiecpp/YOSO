@@ -1,5 +1,6 @@
 This is the project page for paper:
 >[**You Only Segment Once: Towards Real-Time Panoptic Segmentation**](), In CVPR 2023.
+(paper coming soon)
 
 <!-- gif -->
 
