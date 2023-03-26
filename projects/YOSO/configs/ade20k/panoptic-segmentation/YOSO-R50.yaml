@@ -1,0 +1,38 @@
+_BASE_: Base-ADE20K-PanopticSegmentation.yaml
+MODEL:
+  BACKBONE:
+    FREEZE_AT: 0
+    NAME: "build_resnet_backbone"
+  RESNETS:
+    DEPTH: 50
+    STRIDE_IN_1X1: False
+    OUT_FEATURES: ["res2", "res3", "res4", "res5"]
+  WEIGHTS: "detectron2://ImageNetPretrained/torchvision/R-50.pkl"
+  YOSO:
+    SIZE_DIVISIBILITY: 32
+    # Structure
+    NUM_CLASSES: 150
+    NUM_STAGES: 2
+    IN_FEATURES: ["res2", "res3", "res4", "res5"]
+    HIDDEN_DIM: 256
+    NUM_PROPOSALS: 100
+    CONV_KERNEL_SIZE_2D: 1
+    CONV_KERNEL_SIZE_1D: 3
+    NUM_CLS_FCS: 1
+    NUM_MASK_FCS: 1
+    # Loss
+    NO_OBJECT_WEIGHT: 0.1
+    CLASS_WEIGHT: 2.0
+    MASK_WEIGHT: 5.0
+    DICE_WEIGHT: 5.0
+    TRAIN_NUM_POINTS: 12544
+    OVERSAMPLE_RATIO: 3.0
+    IMPORTANCE_SAMPLE_RATIO: 0.75
+    TEMPERATIRE: 0.5 #1.0
+    TEST:
+      SEMANTIC_ON: False #True
+      INSTANCE_ON: False #True
+      PANOPTIC_ON: True
+      OVERLAP_THRESHOLD: 0.8
+      OBJECT_MASK_THRESHOLD: 0.8
+OUTPUT_DIR: "output/yoso_resnet50_panoptic_seg_ade20k"
