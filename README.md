@@ -1,7 +1,5 @@
 This is the project page for paper:
->[**You Only Segment Once: Towards Real-Time Panoptic Segmentation**](), In CVPR 2023.
-(paper coming soon)
-
+>[**You Only Segment Once: Towards Real-Time Panoptic Segmentation**](https://arxiv.org/abs/2303.14651), In CVPR 2023.
 <!-- gif -->
 
 ## Model Zoo
