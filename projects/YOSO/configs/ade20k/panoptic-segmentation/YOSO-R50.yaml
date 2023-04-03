@@ -34,5 +34,5 @@ MODEL:
       INSTANCE_ON: False #True
       PANOPTIC_ON: True
       OVERLAP_THRESHOLD: 0.8
-      OBJECT_MASK_THRESHOLD: 0.8
+      OBJECT_MASK_THRESHOLD: 0.2
 OUTPUT_DIR: "output/yoso_resnet50_panoptic_seg_ade20k"
