@@ -73,10 +73,10 @@ python demo/demo.py --config-file projects/YOSO/configs/YOSO-R50.yaml --video-in
 If YOSO helps your research, please cite it in your publications:
 
 ```BibTeX
-@inproceedings{hu2023yoso,
+@article{hu2023yoso,
   title={You Only Segment Once: Towards Real-Time Panoptic Segmentation},
   author={Hu, Jie and Huang, Linyan and Ren, Tianhe and Zhang, Shengchuan and Ji, Rongrong and Cao, Liujuan},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  journal={arXiv preprint arXiv:2303.14651},
   year={2023}
 }
 ```
