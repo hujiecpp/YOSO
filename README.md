@@ -60,7 +60,7 @@ python projects/YOSO/train_net.py --num-gpus 4 --config-file projects/YOSO/confi
 
 - Run YOSO demo (e.g., on video with R50 backbone).
 ```bash
-python demo/demo.py --config-file projects/YOSO/configs/YOSO-R50.yaml --video-input input_video.mp4 --output output_video.mp4 --opts MODEL.WEIGHTS ./model_zoo/yoso_res50_coco.pth
+python demo/demo.py --config-file projects/YOSO/configs/coco/panoptic-segmentation/YOSO-R50.yaml --video-input input_video.mp4 --output output_video.mp4 --opts MODEL.WEIGHTS ./model_zoo/yoso_res50_coco.pth
 ```
 
 ## Acknowledgements
