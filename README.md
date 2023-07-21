@@ -48,12 +48,12 @@ See [Preparing Datasets for Mask2Former](https://github.com/facebookresearch/Mas
 
 - Train YOSO (e.g., on COCO dataset with R50 backbone).
 ```bash
-python projects/YOSO/train_net.py --num-gpus 4 --config-file projects/YOSO/configs/YOSO-R50.yaml
+python projects/YOSO/train_net.py --num-gpus 4 --config-file projects/YOSO/configs/coco/panoptic-segmentation/YOSO-R50.yaml
 ```
 
 - Evaluate YOSO (e.g., on COCO dataset with R50 backbone).
 ```bash
-python projects/YOSO/train_net.py --num-gpus 4 --config-file projects/YOSO/configs/YOSO-R50.yaml --eval-only MODEL.WEIGHTS ./model_zoo/yoso_res50_coco.pth
+python projects/YOSO/train_net.py --num-gpus 4 --config-file projects/YOSO/configs/coco/panoptic-segmentation/YOSO-R50.yaml --eval-only MODEL.WEIGHTS ./model_zoo/yoso_res50_coco.pth
 ```
 
 ### Inference on Custom Image or Video
